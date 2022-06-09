@@ -1,0 +1,12 @@
+package testngtestui;
+
+import org.testng.annotations.Test;
+
+public class ListenerDemoTest extends ListenerBaseClass
+{
+	@Test
+	public void launchapp()
+	{
+		driver.get("https://www.ebay.com/");
+	}
+}

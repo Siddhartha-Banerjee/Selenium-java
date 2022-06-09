@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testngtesting by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-user-reg(failed)">
+    <groups>
+      <run>
+        <include name="user-reg"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testngtestui.groupTest">
+        <methods>
+          <include name="first"/>
+        </methods>
+      </class> <!-- testngtestui.groupTest -->
+    </classes>
+  </test> <!-- GRP-user-reg(failed) -->
+</suite> <!-- Failed suite [testngtesting by groups] -->
